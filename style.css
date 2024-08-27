@@ -1,0 +1,62 @@
+header{
+    background-color: #343434;
+    width: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+nav {
+    font-family:verdana;
+    font-size: 15px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+li {
+    width: 100%;
+    color: white;
+    display: inline-block;
+}
+
+ul {
+    display: flex;
+}
+
+.navegacao li{
+    padding: 21px 10px;
+}
+
+.navegacao li:hover{
+    color: #11bf14;
+    cursor: pointer;
+}
+
+.formulario li{
+    display: flex;
+    width: auto;
+    padding: 1px;
+}
+
+input{
+    border-radius: 5px;
+    width: 100%;
+    height: 25px;
+    padding: 0 7px 0 7px;
+}
+
+button{
+    margin-right: 0;
+    font-family:verdana;
+    font-size: 11px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    color: white;
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    background-color: #33b357;
+    font-style: bolder;
+}
